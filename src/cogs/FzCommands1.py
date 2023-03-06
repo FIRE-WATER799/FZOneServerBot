@@ -48,8 +48,6 @@ class FzCommands(commands.Cog):
                 chan = self.bot.get_channel(chanelid)
                 await chan.send(f"Server started at `{ip}`\nLaunch Id: {launchId}")
                 self.bot.active_sockets.append((ctx.guild.id, socket, socket_task))
-    
-    @app_commands.command()
 
 async def setup(bot):
     await bot.add_cog(FzCommands(bot))

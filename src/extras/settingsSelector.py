@@ -49,7 +49,6 @@ class VersionSelector(Select):
         if _check_for_settings(self.view):
             self.view.stop()
 
-
 class SettingsSelectorView(View):
     def __init__(self, regions: dict, saves: dict, versions: dict):
         super().__init__()
