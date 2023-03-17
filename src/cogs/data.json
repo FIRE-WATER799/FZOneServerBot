@@ -1,3 +1,11 @@
 {
-
+    "Serverid": {
+        "token": "FZ token",
+        "channelid": "channel where you want your ip to go to",
+        "logchannelid": "channel for logs",
+        "save": "use /settings",
+        "version": "use /settings",
+        "region": "use /settings",
+        "requireAdmin": "Yes/No Yes: only people woth adminisratar permission can use /connect No: Anybody can use /connect"
+    }
 }
